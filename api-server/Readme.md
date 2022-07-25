@@ -23,6 +23,12 @@
 
 ## **`How to Use`** :
 
+ - GET https://playerstats-api.herokuapp.com/api/v1/stats
+    - This will return the stats for all players
+
+
+<hr/>
+
 
   - POST https://playerstats-api.herokuapp.com/api/v1/stats 
     -  This will create the stats a player
@@ -45,7 +51,9 @@
     ```
 
 
-  - GET https://playerstats-api.herokuapp.com/api/v1/stats/23 
+ 
+    
+      - GET https://playerstats-api.herokuapp.com/api/v1/stats/23 
     - This will get the stats for player 23
 
     ```json
@@ -58,7 +66,7 @@
       }
     ```
     
-  - PUT https://playerstats-api.herokuapp.com/api/v1/stats/23 
+  - PUT https://playerstats-api.herokuapp.com/api/v1/stats/101
     - This will update the stats for player 101
 
     ```json
@@ -78,7 +86,7 @@
       }
     ```
 
-  - DELETE https://playerstats-api.herokuapp.com/api/v1/stats/23
+  - DELETE https://playerstats-api.herokuapp.com/api/v1/stats/101
     -  This will delete the stats for player 101
 
     ```json
@@ -94,4 +102,6 @@
 
     ```
 
-    
+#
+
+###  Created by [CoderZ](https://github.com/1c0d3rZ)
