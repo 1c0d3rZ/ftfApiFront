@@ -1,0 +1,181 @@
+body {
+  padding: 3vh 2vw;
+}
+
+/* Styling the title */
+.title {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  color: rgb(64, 64, 64);
+}
+
+/* Style the tab */
+.tab {
+  width: 90%;
+  max-width: calc(3% + 700px);
+  display: flex;
+  justify-content: stretch;
+  overflow: hidden;
+  margin-inline: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 700px) {
+  .tab {
+    flex-wrap: wrap;
+  }
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 16px;
+  width: 100%;
+  min-width: 80px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.active {
+  background-color: #D2D2D2;
+}
+
+.w100 {
+  width: 100%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 6px 12px;
+  margin-inline: auto;
+  border-top: none;
+}
+
+.none {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+/* styling the List section refresh btn */
+.allBtn {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 14px;
+}
+
+.allBtn:hover {
+  background-color: #afafaf;
+}
+
+/* Styling the scrollTop btn  */
+
+.scrollBtn{
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #656565;
+  color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+/* Style the output */
+.output {
+  flex: 1;
+  width: 90%;
+  max-width: 700px;
+  min-height: 30vh;
+  padding: 2vw 2vh;
+  background-color: #D2D2D2;
+  margin-inline: auto;
+  border-radius: 8px;
+  margin-block-start: 30px;
+}
+
+.output * {
+  word-wrap: break-word;
+}
+
+@media (min-width: 1100px) {
+  .output {
+    margin-block-start: 0;
+  }
+}
+
+.eltDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.elt {
+  min-width: 180px;
+}
+
+/* style the layout */
+.wrapper{
+  width: 100%;
+  max-width: 720px;
+  margin-inline: auto;
+  margin-block: 20px;
+}
+
+@media (min-width: 1100px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+/* styling the input fields */
+input[type=number] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* styling the input buttons */
+.tabcontent button {
+  flex: 1;
+  width: 100%;
+  background-color: #03dd8d;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tabcontent button:hover {
+  background-color: #58ff7c;
+}
